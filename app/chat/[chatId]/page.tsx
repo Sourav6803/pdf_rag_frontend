@@ -28,7 +28,6 @@ import ChatComponent from "@/app/components/Chat";
 
 const ChatPage = () => {
   const { chatId } = useParams() as { chatId: string };
-
   const [pdfUrl, setPdfUrl] = useState<string>("");
   const [chatSummary, setChatSummary] = useState<string>("Loading AI summary...");
   const [title, setTitle] = useState<string>("");
